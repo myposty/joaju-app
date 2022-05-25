@@ -54,15 +54,20 @@ document.addEventListener(
   false,
 );
 
-//detectar si el navegador esta en modo oscuro o nel
-window.matchMedia('(prefers-color-scheme: dark)')
-.addEventListener('change', event => {
-let bodyStyle = document.querySelector('#top');
-  if (event.matches) {
-    //dark mode
-    bodyStyle.classList.toggle('dark');
-  } else {
-    //light mode
-    bodyStyle.classList.toggle('light');
-  }
-})
+
+
+//boton volar al cielo xd
+$(document).ready(function(){
+
+  $(window).scroll(function(){
+    if($(this).scrollTop() > 40){
+      $('#topBtn').fadeIn();
+    } else{
+      $('#topBtn').fadeOut();
+    }
+  });
+
+  $("#topBtn").click(function(){
+    $('html ,body').animate({scrollTop : 0},800);
+  });
+});

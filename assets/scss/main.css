@@ -101,10 +101,6 @@ body {
   overflow-x: hidden;
 }
 
-body.active {
-  overflow: hidden;
-}
-
 @media (prefers-color-scheme: light) {
   body {
     background-color: var(--color-primary);
@@ -1594,6 +1590,9 @@ body.active {
           align-items: center;
   -webkit-box-shadow: 0px 14px 13px -3px rgba(0, 0, 0, 0.1);
           box-shadow: 0px 14px 13px -3px rgba(0, 0, 0, 0.1);
+  display: none;
+  -webkit-transition: ease-in-out 0.3s !important;
+  transition: ease-in-out 0.3s !important;
 }
 
 .btn__top:hover {
@@ -1601,7 +1600,6 @@ body.active {
 }
 
 .btn__top ion-icon {
-  padding: 10px;
   border-radius: 50%;
   font-size: 50px !important;
   color: var(--text-primary);
