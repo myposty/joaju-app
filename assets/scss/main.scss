@@ -30,7 +30,17 @@ body{
     overflow-x: hidden;
 }
 
-
+header.scroll-up {
+    transform: translateY(0);
+  }
+  
+  header.scroll-down {
+    transform: translateY(-100%);
+}
+header{
+    position: fixed;
+    z-index: 4;
+}
 
 
 

@@ -101,6 +101,21 @@ body {
   overflow-x: hidden;
 }
 
+header.scroll-up {
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+}
+
+header.scroll-down {
+  -webkit-transform: translateY(-100%);
+          transform: translateY(-100%);
+}
+
+header {
+  position: fixed;
+  z-index: 4;
+}
+
 @media (prefers-color-scheme: light) {
   body {
     background-color: var(--color-primary);
