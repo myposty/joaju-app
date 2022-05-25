@@ -519,8 +519,14 @@ body.active {
     height: auto;
     margin: 20px auto;
   }
+  .main .contact__section .contact__us h1 {
+    font-family: 'oswald bold';
+  }
   .main .contact__section .contact__us hr {
     width: 40%;
+  }
+  .main .contact__section .contact__us p {
+    font-family: 'oswald bold';
   }
   .main .contact__section .contact__us p a {
     text-decoration: none;
