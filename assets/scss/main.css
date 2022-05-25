@@ -536,7 +536,7 @@ body {
     background-color: var(--color-primary);
     display: block;
     width: 100%;
-    line-height: 100px;
+    height: auto;
     margin-top: auto;
   }
   footer p {
@@ -1202,7 +1202,7 @@ body {
     background-color: var(--dark-color-secondary);
     display: block;
     width: 100%;
-    line-height: 100px;
+    height: auto;
     margin-top: auto;
   }
   footer p {
@@ -1552,6 +1552,7 @@ body {
           align-items: center;
   -webkit-box-shadow: 0px 14px 13px -3px rgba(0, 0, 0, 0.1);
           box-shadow: 0px 14px 13px -3px rgba(0, 0, 0, 0.1);
+  opacity: .5;
 }
 
 .wha__contact ion-icon {
@@ -1567,6 +1568,7 @@ body {
 
 .wha__contact:hover {
   background-color: var(--color-primary);
+  opacity: 1;
 }
 
 .btn__top {
@@ -1591,12 +1593,14 @@ body {
   -webkit-box-shadow: 0px 14px 13px -3px rgba(0, 0, 0, 0.1);
           box-shadow: 0px 14px 13px -3px rgba(0, 0, 0, 0.1);
   display: none;
+  opacity: .5;
   -webkit-transition: ease-in-out 0.3s !important;
   transition: ease-in-out 0.3s !important;
 }
 
 .btn__top:hover {
   background-color: var(--var-2);
+  opacity: 1;
 }
 
 .btn__top ion-icon {
