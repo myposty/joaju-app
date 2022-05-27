@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.41f64422.css",
+    "main.js": "/static/js/main.6420f262.js",
+    "static/media/video.mp4": "/static/media/video.696facde2223b4938862.mp4",
+    "static/media/flujo-de-mensajes.png": "/static/media/flujo-de-mensajes.c465efaf63374dfe7618.png",
+    "static/media/whatsapp-multiagente.png": "/static/media/whatsapp-multiagente.2c383da8204e009cf2e8.png",
+    "static/media/whatsapp-marketing.png": "/static/media/whatsapp-marketing.e745e83d486d411e5929.png",
+    "static/media/whatsapp-para-varios-dispositivos.png": "/static/media/whatsapp-para-varios-dispositivos.cbde791896a8c15d9bc4.png",
+    "static/media/seguimiento.png": "/static/media/seguimiento.34116e8156b47954c0d7.png",
+    "static/media/sistema-multiagente-para-empresas.png": "/static/media/sistema-multiagente-para-empresas.2214ead5362680c53b86.png",
+    "static/media/logo-joaju.png": "/static/media/logo-joaju.8ca89950ed39e926ca23.png",
+    "static/media/balon.png": "/static/media/balon.b1b02994608ea2922f2e.png",
+    "static/media/multiagente-para-empresas.png": "/static/media/multiagente-para-empresas.498defc8a50c839a19e2.png",
+    "static/media/Oswald-Regular.ttf": "/static/media/Oswald-Regular.61b8c47b12a14193cc0e.ttf",
+    "static/media/Oswald-Heavy.ttf": "/static/media/Oswald-Heavy.99a8953c90cf9a8e8cfa.ttf",
+    "static/media/Oswald-Bold.ttf": "/static/media/Oswald-Bold.7cbe6aaa312a7b0ce3d1.ttf",
+    "static/media/Oswald-Light.ttf": "/static/media/Oswald-Light.053299f7e6177eec7003.ttf",
+    "static/media/send.png": "/static/media/send.d32a382a2af585844d5e.png",
+    "static/media/check.png": "/static/media/check.9ca1699bf1696e53c68a.png",
+    "index.html": "/index.html",
+    "main.41f64422.css.map": "/static/css/main.41f64422.css.map",
+    "main.6420f262.js.map": "/static/js/main.6420f262.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.41f64422.css",
+    "static/js/main.6420f262.js"
+  ]
+}
